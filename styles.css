@@ -1,0 +1,117 @@
+.top-box{
+  height: 400px;
+  width: 100%;
+}
+.library-img{
+  background-image: url(https://images.unsplash.com/photo-1553729784-e91953dec042?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  width: 70%;
+  height: 600px;
+  margin: 30px auto 0px auto;
+}
+.top-header{
+  text-align: center;
+  margin: 60px auto 30px auto;
+  font-weight: 700;
+  color: #373a40;
+  font-size: 60px;
+}
+.top-text{
+  margin: 25px auto 0px auto;
+  width: 608px;
+  font-size: 1.125rem;
+  font-family: "Bitter";
+  font-weight: 400;
+  line-height: 1.875; 
+}
+
+.top-text h3{
+  margin: 40px 0px 25px 0px;
+}
+
+/* Navbar and Search box code */
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+body {
+	background: white;
+}
+
+
+
+.navbar{
+  font-family: 'Work Sans', sans-serif;
+}
+.navbar-brand{
+  margin-left: 300px;
+}
+#navbarSupportedContent{
+  margin-right: 30px;
+  margin-left: 200px;
+}
+.nav-item{
+  margin-right: 20px;
+}
+
+#wrap {
+  margin: 0px 0px;
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  float: right;
+  padding: 0;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 35px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Work Sans", sans-serif; 
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 0px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+}
+
+input[type="text"]:focus {
+  width: 600px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  color:red;
+  float: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+  background-size: 25px 25px;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
