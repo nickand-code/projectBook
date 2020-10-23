@@ -3,9 +3,10 @@
   width: 100%;
 }
 
-.img-fluid{
-  width: 80%;
+.library-img{
+  width: 70%;
   height: 10%;
+  border-radius: 50px;
 }
 .top-header{
   text-align: center;
@@ -14,7 +15,7 @@
   color: #373a40;
   font-size: 60px;
 }
-.block{
+.p-box{
   margin: 20px auto 20px auto;
 }
 .middle-paragraph{
@@ -49,4 +50,25 @@
 }
 .nav-link{
   color: black;
+}
+
+/* blog */
+.blog-page{
+  max-width: 1280px;
+  margin: 50px auto;
+}
+.article{
+  padding: 32px 32px 32px 32px;
+  width: 362.65px;
+  height: auto;
+}
+.article:hover{
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
 }
