@@ -4,9 +4,8 @@
 }
 
 .library-img{
-  width: 70%;
+  width: 80%;
   height: 10%;
-  border-radius: 50px;
 }
 .top-header{
   text-align: center;
@@ -19,7 +18,7 @@
   margin: 20px auto 20px auto;
 }
 .middle-paragraph{
-  margin: 25px auto 25px auto;
+  margin: 30px auto 30px auto;
   width: 608px;
   font-size: 1.125rem;
   font-family: "Bitter";
@@ -27,8 +26,8 @@
   line-height: 1.875; 
 }
 
-.middle-text-h3{
-  margin: 25px auto 25px auto;
+.middle-h3{
+  margin: 35px auto 35px auto;
   width: 608px;
   font-family: "Work Sans", sans-serif;
   font-weight: 600; 
@@ -63,12 +62,7 @@
   height: auto;
 }
 .article:hover{
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
+  -webkit-box-shadow: -1px -3px 30px 8px rgba(133,133,133,0.63);
+  -moz-box-shadow: -1px -3px 30px 8px rgba(133,133,133,0.63);
+  box-shadow: -1px -3px 30px 8px rgba(133,133,133,0.63);
 }
